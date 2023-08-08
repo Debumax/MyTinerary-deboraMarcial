@@ -1,8 +1,9 @@
+import Hero from "../layouts/Hero"
 function Index() {
     return(
-        //search-links
-        // <div>esto es el index</div>
-        <div></div>
+        <div>
+            <Hero/>
+        </div>
     )
 }
 export default Index

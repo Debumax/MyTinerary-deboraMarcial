@@ -1,12 +1,15 @@
-import NavBar from "../components/NavBar"
-import Footer from "../components/Footer"
-function MainLoyout({children}) {
+import Header from "./Header"
+import Footer from "./Footer"
+import { Children } from "react"
+
+
+function MainLoyout({Children}) {
     return (
-        
         <>
-        <NavBar />
-        {children}
-        <Footer />
+        <Header />
+            {Children}
+        <Footer/>
+
         </>
     )
 }

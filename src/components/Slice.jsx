@@ -1,3 +1,5 @@
+import Carrusel from "../components/Carrusel"
+
 function Slice() {
     return (
         <div>
@@ -5,7 +7,7 @@ function Slice() {
                 <button>izq</button>
             </div>
             <div>
-                carrucel
+                <Carrusel/>
             </div>
             <div>
                 <button>der</button>

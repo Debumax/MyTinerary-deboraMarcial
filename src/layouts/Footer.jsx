@@ -1,7 +1,7 @@
 function Footer() {
     return (
         // <div>esto es el footer</div>
-        <div></div>
+        <div>foooter</div>
     )
 }
 export default Footer
