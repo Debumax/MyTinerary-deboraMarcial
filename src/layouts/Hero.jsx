@@ -1,8 +1,9 @@
 import Welcome from "../components/Welcome"
 import Slice from "../components/Slice"
+
 function Hero() {
     return (
-        <div>
+        <div className="bg-red-200">
             <Welcome/>
             <Slice/>
         </div>

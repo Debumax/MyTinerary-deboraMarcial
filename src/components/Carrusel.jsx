@@ -6,6 +6,7 @@ function Carrusel() {
             <ImgCarrusel/>
             
             */}
+            carrusel
         </div>
     )
 }

@@ -4,7 +4,7 @@ import Login from "../components/Login"
 
 function Header() {
     return(
-        <div>
+        <div className="bg-amber-300 flex flex-wrap p-2 justify-between">
             <Logo/>
             <NavBar/>
             <Login/>
